@@ -12,18 +12,18 @@ http://forums.bunsenlabs.org/
 
 HOW TO USE
 
-Download a Debian Stretch "netinst" .iso file from here:
+Download a Debian Buster "netinst" .iso file from here:
 https://www.debian.org/CD/netinst/
 and use it to install a basic cli system.
 (See "DEBIAN NETINSTALL HINTS" below.)
 
-Boot into your Debian Netinstall Stretch cli system,
+Boot into your Debian Netinstall Buster cli system,
 log in and run these commands, as a normal user:
 (A fresh copy of this bunsen-netinstall package will be downloaded.)
 
-wget https://github.com/bunsenlabs/bunsen-netinstall/archive/helium-dev.tar.gz
-tar -xpf helium-dev.tar.gz
-cd bunsen-netinstall-helium-dev
+wget https://github.com/bunsenlabs/bunsen-netinstall/archive/helium-dev.tar.gz (change source when ready)
+tar -xpf lithium-dev.tar.gz
+cd bunsen-netinstall-lithium-dev
 ./install
 
 The installation process will start.
@@ -64,7 +64,7 @@ bunsen-netinstall-logs: folder to copy into user's ~/.cache directory
 
 DEBIAN NETINSTALL HINTS
 
-Installing Debian Stretch by the netinstall CD is
+Installing Debian Buster by the netinstall CD is
 similar to using the standard installer.
 
 Two points to watch if you want to use
